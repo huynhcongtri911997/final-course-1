@@ -32,8 +32,8 @@
             <tr>
               <td><?php echo $row["name"]; ?></td>
               <td><?php echo $row["description"]; ?></td>
-              <td><a href="edit.php?id=<?php echo $row["id"];?>">Edit</a></td>;
-              <td><a href="delete.php?id=<?php echo $row["id"];?>">Delete</a></td>;
+              <td><a href="edit.php?id=<?php echo $row["id"];?>">Edit</a></td>
+              <td><a href="delete.php?id=<?php echo $row["id"];?>">Delete</a></td>
           <?php   }
         }
       ?>
